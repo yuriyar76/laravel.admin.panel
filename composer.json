@@ -37,12 +37,12 @@
         },
         "files": [
             "config/init.php",
-            "config/params.php",
-            "app/SBlog/Core"
-        ],
+            "config/params.php"
+         ],
         "classmap": [
             "database/seeds",
-            "database/factories"
+            "database/factories",
+            "app/SBlog/Core"
         ]
     },
     "autoload-dev": {
