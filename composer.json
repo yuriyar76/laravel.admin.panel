@@ -35,6 +35,11 @@
         "psr-4": {
             "App\\": "app/"
         },
+        "files": [
+            "config/init.php",
+            "config/params.php",
+            "app/SBlog/Core"
+        ],
         "classmap": [
             "database/seeds",
             "database/factories"
